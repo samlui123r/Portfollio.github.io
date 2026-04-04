@@ -1,0 +1,30 @@
+# ============================================================
+#  REQUIREMENTS — Gold & Crypto Backtest Engine
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+pandas-stubs>=2.0.0
+
+# Exchange connectivity & data
+ccxt>=4.2.0
+
+# Backtesting engine
+vectorbt>=0.25.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data storage
+pyarrow>=12.0.0        # parquet file support for caching
+
+# Utilities
+python-dateutil>=2.8.0
+tqdm>=4.65.0           # progress bars on optimization loops
+
+# Optional: Jupyter for interactive exploration
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
